@@ -1,0 +1,68 @@
+body {
+    background-color: #F0FFF0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+}
+
+table {
+    width: 60%;
+}
+
+table, th, td {
+    border: 2px solid;
+    text-align: center;
+}
+
+tr:nth-child(even) {background-color: rgb(224, 218, 218)}
+
+
+#bt-new {
+    padding: 15px 20px; 
+    margin: 20px;
+    background-color: #90EE90;
+    align-items: center;
+}
+
+#bt-new:hover {
+    background-color: #0056b3; 
+}
+
+
+label {
+    padding: 5px; 
+    font-weight: bold; 
+    
+}
+label:hover, label:focus {
+    background-color: #d08f8f;
+}
+
+input {
+    border: none; 
+    cursor: pointer;
+    border-bottom: 1px solid #333; /* Adicione uma linha na parte inferior */
+    background-color: transparent; /* Torne o fundo transparente para remover a caixa branca */
+    padding: 5px;
+    margin-bottom: 10%;
+}
+
+
+
+input[type="submit"] {
+    align-items: center;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+    margin-bottom: 5%;
+}
